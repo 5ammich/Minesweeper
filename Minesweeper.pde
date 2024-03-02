@@ -6,7 +6,7 @@ private ArrayList <MSButton> mines = new ArrayList(); //ArrayList of just the mi
 private boolean loser = false;
 void setup ()
 {
-    size(780, 780);
+    size(800, 800);
     textAlign(CENTER,CENTER);
     
     // make the manager
