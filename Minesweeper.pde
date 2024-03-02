@@ -19,7 +19,7 @@ void setup ()
         buttons[i][j] = new MSButton(i,j);
       }
     }
-    for (int k = 0; k < 101; k++){
+    for (int k = 0; k < 251; k++){
       setMines();
     }
 }
@@ -202,7 +202,7 @@ public void keyPressed(){
     mines.remove(k);
     k--;
   }
-  for (int k = 0; k < 101; k++){
+  for (int k = 0; k < 251; k++){
     setMines();
   }
   }
