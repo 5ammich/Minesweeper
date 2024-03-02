@@ -200,6 +200,7 @@ public void keyPressed(){
     }
   for (int k = 0; k < mines.size(); k++){
     mines.remove(k);
+    k--;
   }
   for (int k = 0; k < 101; k++){
     setMines();
