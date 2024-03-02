@@ -57,6 +57,7 @@ public void displayLosingMessage()
     if(mines.get(p).clicked == false){
       mines.get(p).mousePressed();
     }
+}
     buttons[10][11].setLabel("Y");
     buttons[10][12].setLabel("O");
     buttons[10][13].setLabel("U");
